@@ -349,17 +349,6 @@ static void MX_GPIO_Init(void)
 }
 
 /* USER CODE BEGIN 4 */
-
-/* USER CODE END 4 */
-
-/* USER CODE BEGIN Header_StartDefaultTask */
-/**
-  * @brief  Function implementing the defaultTask thread.
-  * @param  argument: Not used
-  * @retval None
-  */
-/* USER CODE END Header_StartDefaultTask */
-
 int g_tx_error = 0;
 HAL_StatusTypeDef K_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uint16_t Size)
 {
@@ -524,8 +513,14 @@ int aiot_uart_init()
 		
 		return 0;
 }
+/* USER CODE END 4 */
 
-
+/* USER CODE BEGIN Header_StartDefaultTask */
+/**
+  * @brief  Function implementing the defaultTask thread.
+  * @param  argument: Not used
+  * @retval None
+  */
 extern int link_main(int argc, char *argv[]);
 void StartDefaultTask(void const * argument)
 {
@@ -559,6 +554,7 @@ void StartUartTask(void const * argument)
     }
     /* USER CODE END 5 */
 }
+/* USER CODE END Header_StartDefaultTask */
 
 /**
   * @brief  This function is executed in case of error occurrence.
