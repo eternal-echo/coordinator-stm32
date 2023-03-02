@@ -141,7 +141,7 @@ int32_t demo_mqtt_start(void **handle, char *product_key, char *device_name, cha
 {
     int32_t     res = STATE_SUCCESS;
     void       *mqtt_handle = NULL;
-    char       *url = "iot-as-mqtt.cn-shanghai.aliyuncs.com"; /* 阿里云平台上海站点的域名后缀 */
+    char       *url = "hcixxJENrUz.iot-as-mqtt.cn-shanghai.aliyuncs.com"; /* 阿里云平台上海站点的域名后缀 */
     char        host[100] = {0}; /* 用这个数组拼接设备连接的云平台站点全地址, 规则是 ${productKey}.iot-as-mqtt.cn-shanghai.aliyuncs.com */
     uint16_t    port = 443;      /* 无论设备是否使用TLS连接阿里云平台, 目的端口都是443 */
     aiot_sysdep_network_cred_t cred; /* 安全凭据结构体, 如果要用TLS, 这个结构体中配置CA证书等参数 */
@@ -415,9 +415,9 @@ int link_main(int argc, char *argv[])
     int32_t     res = STATE_SUCCESS;
 
     /* TODO: 替换为自己设备的三元组 */
-    char *product_key       = "a18wPzZJzNG";
-    char *device_name       = "logpost_basic_demo";
-    char *device_secret     = "yPzQqkybjFHOx76tUlfDYJSZ0NORrgCc";
+    char *product_key       = "hcixxJENrUz";
+    char *device_name       = "coordinator0";
+    char *device_secret     = "bafdf3991aeab4fe2991e3d281a9f725";
 
     void *mqtt_handle = NULL, *logpost_handle = NULL, *ntp_handle = NULL;
 
@@ -428,14 +428,14 @@ int link_main(int argc, char *argv[])
         return -1;
     }
 
-		/*时间同步*/
+    /*时间同步*/
     ntp_handle = ntp_start(mqtt_handle);
     if (ntp_handle == NULL) {
         printf("ntp_init failed\r\n");
         return -1;
     }
 		
-		/*等待时间同步完成*/
+    /*等待时间同步完成*/
     osDelay(1000);
     
     /* 创建1个logpost客户端实例并内部初始化默认参数 */
