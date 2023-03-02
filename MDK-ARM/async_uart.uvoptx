@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ProjectOpt xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="project_optx.xsd">
 
   <SchemaVersion>1.0</SchemaVersion>
@@ -26,7 +26,7 @@
     <ToolsetNumber>0x4</ToolsetNumber>
     <ToolsetName>ARM-ADS</ToolsetName>
     <TargetOption>
-      <CLKADS>12000000</CLKADS>
+      <CLKADS>8000000</CLKADS>
       <OPTTT>
         <gFlags>1</gFlags>
         <BeepAtEnd>1</BeepAtEnd>
@@ -45,7 +45,7 @@
         <PageWidth>79</PageWidth>
         <PageLength>66</PageLength>
         <TabStop>8</TabStop>
-        <ListingPath></ListingPath>
+        <ListingPath />
       </OPTLEX>
       <ListingPage>
         <CreateCListing>1</CreateCListing>
@@ -104,16 +104,16 @@
         <bSchkAxf>0</bSchkAxf>
         <bTchkAxf>0</bTchkAxf>
         <nTsel>6</nTsel>
-        <sDll></sDll>
-        <sDllPa></sDllPa>
-        <sDlgDll></sDlgDll>
-        <sDlgPa></sDlgPa>
-        <sIfile></sIfile>
-        <tDll></tDll>
-        <tDllPa></tDllPa>
-        <tDlgDll></tDlgDll>
-        <tDlgPa></tDlgPa>
-        <tIfile></tIfile>
+        <sDll />
+        <sDllPa />
+        <sDlgDll />
+        <sDlgPa />
+        <sIfile />
+        <tDll />
+        <tDllPa />
+        <tDlgDll />
+        <tDlgPa />
+        <tIfile />
         <pMon>STLink\ST-LINKIII-KEIL_SWO.dll</pMon>
       </DebugOpt>
       <TargetDriverDllRegistry>
@@ -145,7 +145,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>ARMDBGFLAGS</Key>
-          <Name></Name>
+          <Name />
         </SetRegEntry>
         <SetRegEntry>
           <Number>0</Number>
@@ -167,7 +167,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>../Src/main.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/main.c\363</Expression>
         </Bp>
         <Bp>
@@ -183,7 +183,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>../Src/main.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/main.c\422</Expression>
         </Bp>
         <Bp>
@@ -199,7 +199,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>../Src/main.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/main.c\327</Expression>
         </Bp>
         <Bp>
@@ -215,7 +215,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>../Src/main.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/main.c\324</Expression>
         </Bp>
         <Bp>
@@ -231,7 +231,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>../Src/main.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/main.c\323</Expression>
         </Bp>
         <Bp>
@@ -247,7 +247,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>../Src/main.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/main.c\402</Expression>
         </Bp>
         <Bp>
@@ -263,7 +263,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\Src\V4-SDK\V4-SDK\core\aiot_mqtt_api.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/core/aiot_mqtt_api.c\2238</Expression>
         </Bp>
         <Bp>
@@ -279,7 +279,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\Src\V4-SDK\V4-SDK\core\aiot_mqtt_api.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/core/aiot_mqtt_api.c\2237</Expression>
         </Bp>
         <Bp>
@@ -295,7 +295,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\Src\V4-SDK\V4-SDK\core\aiot_mqtt_api.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/core/aiot_mqtt_api.c\2226</Expression>
         </Bp>
         <Bp>
@@ -311,7 +311,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\Src\V4-SDK\V4-SDK\core\aiot_mqtt_api.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/core/aiot_mqtt_api.c\2181</Expression>
         </Bp>
         <Bp>
@@ -327,7 +327,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\Src\V4-SDK\V4-SDK\core\aiot_mqtt_api.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/core/aiot_mqtt_api.c\2167</Expression>
         </Bp>
         <Bp>
@@ -343,7 +343,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\Src\V4-SDK\V4-SDK\core\aiot_mqtt_api.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/core/aiot_mqtt_api.c\2166</Expression>
         </Bp>
         <Bp>
@@ -359,7 +359,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\Src\V4-SDK\V4-SDK\core\aiot_mqtt_api.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/core/aiot_mqtt_api.c\667</Expression>
         </Bp>
         <Bp>
@@ -375,7 +375,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\Src\V4-SDK\V4-SDK\core\aiot_mqtt_api.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/core/aiot_mqtt_api.c\665</Expression>
         </Bp>
         <Bp>
@@ -391,7 +391,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\Src\V4-SDK\V4-SDK\core\aiot_mqtt_api.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/core/aiot_mqtt_api.c\377</Expression>
         </Bp>
         <Bp>
@@ -407,7 +407,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\Src\V4-SDK\V4-SDK\core\aiot_mqtt_api.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/core/aiot_mqtt_api.c\579</Expression>
         </Bp>
         <Bp>
@@ -423,7 +423,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\Src\V4-SDK\V4-SDK\core\aiot_mqtt_api.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/core/aiot_mqtt_api.c\1524</Expression>
         </Bp>
         <Bp>
@@ -439,7 +439,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\Src\V4-SDK\V4-SDK\core\aiot_mqtt_api.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/core/aiot_mqtt_api.c\566</Expression>
         </Bp>
         <Bp>
@@ -455,7 +455,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\Src\V4-SDK\V4-SDK\core\aiot_mqtt_api.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/core/aiot_mqtt_api.c\1717</Expression>
         </Bp>
         <Bp>
@@ -471,7 +471,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\Src\V4-SDK\V4-SDK\core\aiot_mqtt_api.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/core/aiot_mqtt_api.c\1715</Expression>
         </Bp>
         <Bp>
@@ -487,7 +487,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\Src\V4-SDK\V4-SDK\core\aiot_mqtt_api.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/core/aiot_mqtt_api.c\557</Expression>
         </Bp>
         <Bp>
@@ -503,7 +503,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\Src\V4-SDK\V4-SDK\core\aiot_mqtt_api.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/core/aiot_mqtt_api.c\559</Expression>
         </Bp>
         <Bp>
@@ -519,7 +519,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\Src\V4-SDK\V4-SDK\core\aiot_mqtt_api.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/core/aiot_mqtt_api.c\561</Expression>
         </Bp>
         <Bp>
@@ -535,7 +535,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\Src\V4-SDK\V4-SDK\core\aiot_mqtt_api.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/core/aiot_mqtt_api.c\555</Expression>
         </Bp>
         <Bp>
@@ -551,7 +551,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>../Src/main.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/main.c\532</Expression>
         </Bp>
         <Bp>
@@ -567,7 +567,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\Src\V4-SDK\V4-SDK\portfiles\freertos-at-modem-port\mqtt_at_basic_demo.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/portfiles/freertos-at-modem-port/mqtt_at_basic_demo.c\453</Expression>
         </Bp>
         <Bp>
@@ -583,7 +583,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>..\Src\V4-SDK\V4-SDK\portfiles\freertos-at-modem-port\mqtt_at_basic_demo.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/portfiles/freertos-at-modem-port/mqtt_at_basic_demo.c\425</Expression>
         </Bp>
         <Bp>
@@ -599,7 +599,7 @@
           <BreakByAccess>0</BreakByAccess>
           <BreakIfRCount>1</BreakIfRCount>
           <Filename>../Src/main.c</Filename>
-          <ExecCommand></ExecCommand>
+          <ExecCommand />
           <Expression>\\async_uart\../Src/main.c\501</Expression>
         </Bp>
       </Breakpoint>
@@ -686,19 +686,19 @@
         <newCpu>0</newCpu>
         <uProt>0</uProt>
       </DebugFlag>
-      <LintExecutable></LintExecutable>
-      <LintConfigFile></LintConfigFile>
+      <LintExecutable />
+      <LintConfigFile />
       <bLintAuto>0</bLintAuto>
       <bAutoGenD>0</bAutoGenD>
       <LntExFlags>0</LntExFlags>
-      <pMisraName></pMisraName>
-      <pszMrule></pszMrule>
-      <pSingCmds></pSingCmds>
-      <pMultCmds></pMultCmds>
-      <pMisraNamep></pMisraNamep>
-      <pszMrulep></pszMrulep>
-      <pSingCmdsp></pSingCmdsp>
-      <pMultCmdsp></pMultCmdsp>
+      <pMisraName />
+      <pszMrule />
+      <pSingCmds />
+      <pMultCmds />
+      <pMisraNamep />
+      <pszMrulep />
+      <pSingCmdsp />
+      <pMultCmdsp />
       <DebugDescription>
         <Enable>1</Enable>
         <EnableFlashSeq>0</EnableFlashSeq>
