@@ -37,6 +37,8 @@
 
 /* Private define ------------------------------------------------------------*/
 /* USER CODE BEGIN PD */
+#define DEBUG_UART huart1
+#define AIOT_UART huart2
 /* USER CODE END PD */
 
 /* Private macro -------------------------------------------------------------*/
@@ -71,15 +73,14 @@ void StartRxTask(void const * argument);
 /* Private user code ---------------------------------------------------------*/
 /* USER CODE BEGIN 0 */
 
-/* USER CODE END 0 */
-
 /**
   * @brief  The application entry point.
   * @retval int
   */
 
 int fputc(int ch, FILE *f) {
-    ITM_SendChar(ch);
+    // ITM_SendChar(ch);
+    HAL_UART_Transmit(&DEBUG_UART, &ch, 1, 1000);
     return (ch);
 };
 
@@ -148,6 +149,8 @@ int32_t _uart_recv(void  *uart, void *data, uint32_t expect_size,
     return 0;
 }
 
+
+/* USER CODE END 0 */
 
 int main(void)
 {
@@ -394,7 +397,7 @@ HAL_StatusTypeDef K_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, uin
 /* ???????? */
 int32_t at_uart_send(uint8_t *p_data, uint16_t len, uint32_t timeout)
 {
-    if(HAL_OK == 	K_UART_Transmit(&huart1, (uint8_t *)p_data, len)) {
+    if(HAL_OK == 	K_UART_Transmit(&AIOT_UART, (uint8_t *)p_data, len)) {
         return len;
     } else {
         return 0;
@@ -481,7 +484,7 @@ HAL_StatusTypeDef K_UART_Receive_IT(UART_HandleTypeDef *huart, uint8_t *pData, u
 
 int32_t aiot_serial_port_write(int fd, uint8_t *buffer, uint32_t size)
 {
-    K_UART_Transmit(&huart1, (uint8_t *)buffer, size);
+    K_UART_Transmit(&AIOT_UART, (uint8_t *)buffer, size);
     return 0;
 }
 
@@ -492,7 +495,7 @@ void HAL_UART_RxCpltCallback(UART_HandleTypeDef *huart) {
         g_uart_rx_buf.tail = 0;
     }
 
-    K_UART_Receive_IT(&huart1, (uint8_t *)&g_uart_rx_buf.data[g_uart_rx_buf.tail], 1);
+    K_UART_Receive_IT(&AIOT_UART, (uint8_t *)&g_uart_rx_buf.data[g_uart_rx_buf.tail], 1);
 }
 
 int aiot_uart_init()
@@ -527,8 +530,8 @@ extern int link_main(int argc, char *argv[]);
 void StartDefaultTask(void const * argument)
 {
     uint8_t temp;
-    HAL_UART_Receive_IT(&huart1, &temp, 1);
-		aiot_uart_init();
+    HAL_UART_Receive_IT(&AIOT_UART, &temp, 1);
+    aiot_uart_init();
     link_main(0, NULL);
     for(;;)
     {

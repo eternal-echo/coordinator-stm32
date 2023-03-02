@@ -150,7 +150,7 @@
         <SetRegEntry>
           <Number>0</Number>
           <Key>DLGUARM</Key>
-          <Name>d</Name>
+          <Name>(105=-1,-1,-1,-1,0)</Name>
         </SetRegEntry>
       </TargetDriverDllRegistry>
       <Breakpoint>
@@ -159,7 +159,7 @@
           <Type>0</Type>
           <LineNumber>363</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134223222</Address>
+          <Address>134223506</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -175,7 +175,7 @@
           <Type>0</Type>
           <LineNumber>422</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134222962</Address>
+          <Address>134223246</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -191,7 +191,7 @@
           <Type>0</Type>
           <LineNumber>327</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134223480</Address>
+          <Address>134223764</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -207,7 +207,7 @@
           <Type>0</Type>
           <LineNumber>324</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134223472</Address>
+          <Address>134223756</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -223,7 +223,7 @@
           <Type>0</Type>
           <LineNumber>323</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134223468</Address>
+          <Address>134223752</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -239,7 +239,7 @@
           <Type>0</Type>
           <LineNumber>402</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134242462</Address>
+          <Address>134242822</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -255,7 +255,7 @@
           <Type>0</Type>
           <LineNumber>2238</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134240654</Address>
+          <Address>134241014</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -271,7 +271,7 @@
           <Type>0</Type>
           <LineNumber>2237</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134240650</Address>
+          <Address>134241010</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -287,7 +287,7 @@
           <Type>0</Type>
           <LineNumber>2226</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134240606</Address>
+          <Address>134240966</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -303,7 +303,7 @@
           <Type>0</Type>
           <LineNumber>2181</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134240422</Address>
+          <Address>134240782</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -319,7 +319,7 @@
           <Type>0</Type>
           <LineNumber>2167</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134240338</Address>
+          <Address>134240698</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -335,7 +335,7 @@
           <Type>0</Type>
           <LineNumber>2166</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134240334</Address>
+          <Address>134240694</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -351,7 +351,7 @@
           <Type>0</Type>
           <LineNumber>667</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134227718</Address>
+          <Address>134228006</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -367,7 +367,7 @@
           <Type>0</Type>
           <LineNumber>665</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134227708</Address>
+          <Address>134227996</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -383,7 +383,7 @@
           <Type>0</Type>
           <LineNumber>377</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134226300</Address>
+          <Address>134226588</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -399,7 +399,7 @@
           <Type>0</Type>
           <LineNumber>579</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134227204</Address>
+          <Address>134227492</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -415,7 +415,7 @@
           <Type>0</Type>
           <LineNumber>1524</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134241168</Address>
+          <Address>134241528</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -431,7 +431,7 @@
           <Type>0</Type>
           <LineNumber>566</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134227146</Address>
+          <Address>134227434</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -447,7 +447,7 @@
           <Type>0</Type>
           <LineNumber>1717</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134238758</Address>
+          <Address>134239118</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -463,7 +463,7 @@
           <Type>0</Type>
           <LineNumber>1715</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134238740</Address>
+          <Address>134239100</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -479,7 +479,7 @@
           <Type>0</Type>
           <LineNumber>557</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134227060</Address>
+          <Address>134227348</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -495,7 +495,7 @@
           <Type>0</Type>
           <LineNumber>559</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134227082</Address>
+          <Address>134227370</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -511,7 +511,7 @@
           <Type>0</Type>
           <LineNumber>561</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134227108</Address>
+          <Address>134227396</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -527,7 +527,7 @@
           <Type>0</Type>
           <LineNumber>555</LineNumber>
           <EnabledFlag>0</EnabledFlag>
-          <Address>134227054</Address>
+          <Address>134227342</Address>
           <ByteObject>0</ByteObject>
           <HtxType>0</HtxType>
           <ManyObjects>0</ManyObjects>
@@ -537,6 +537,70 @@
           <Filename>..\Src\V4-SDK\V4-SDK\core\aiot_mqtt_api.c</Filename>
           <ExecCommand></ExecCommand>
           <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/core/aiot_mqtt_api.c\555</Expression>
+        </Bp>
+        <Bp>
+          <Number>24</Number>
+          <Type>0</Type>
+          <LineNumber>532</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134223844</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>../Src/main.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\async_uart\../Src/main.c\532</Expression>
+        </Bp>
+        <Bp>
+          <Number>25</Number>
+          <Type>0</Type>
+          <LineNumber>453</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134251498</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>..\Src\V4-SDK\V4-SDK\portfiles\freertos-at-modem-port\mqtt_at_basic_demo.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/portfiles/freertos-at-modem-port/mqtt_at_basic_demo.c\453</Expression>
+        </Bp>
+        <Bp>
+          <Number>26</Number>
+          <Type>0</Type>
+          <LineNumber>425</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134251400</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>..\Src\V4-SDK\V4-SDK\portfiles\freertos-at-modem-port\mqtt_at_basic_demo.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\async_uart\../Src/V4-SDK/V4-SDK/portfiles/freertos-at-modem-port/mqtt_at_basic_demo.c\425</Expression>
+        </Bp>
+        <Bp>
+          <Number>27</Number>
+          <Type>0</Type>
+          <LineNumber>501</LineNumber>
+          <EnabledFlag>1</EnabledFlag>
+          <Address>134242618</Address>
+          <ByteObject>0</ByteObject>
+          <HtxType>0</HtxType>
+          <ManyObjects>0</ManyObjects>
+          <SizeOfObject>0</SizeOfObject>
+          <BreakByAccess>0</BreakByAccess>
+          <BreakIfRCount>1</BreakIfRCount>
+          <Filename>../Src/main.c</Filename>
+          <ExecCommand></ExecCommand>
+          <Expression>\\async_uart\../Src/main.c\501</Expression>
         </Bp>
       </Breakpoint>
       <WatchWindow1>
@@ -599,9 +663,9 @@
       <DebugFlag>
         <trace>0</trace>
         <periodic>1</periodic>
-        <aLwin>0</aLwin>
+        <aLwin>1</aLwin>
         <aCover>0</aCover>
-        <aSer1>0</aSer1>
+        <aSer1>1</aSer1>
         <aSer2>0</aSer2>
         <aPa>0</aPa>
         <viewmode>1</viewmode>
@@ -616,7 +680,7 @@
         <aLa>0</aLa>
         <aPa1>0</aPa1>
         <AscS4>0</AscS4>
-        <aSer4>1</aSer4>
+        <aSer4>0</aSer4>
         <StkLoc>1</StkLoc>
         <TrcWin>0</TrcWin>
         <newCpu>0</newCpu>
@@ -667,7 +731,7 @@
 
   <Group>
     <GroupName>Application/User</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -1107,7 +1171,7 @@
 
   <Group>
     <GroupName>Drivers/STM32F1xx_HAL_Driver</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -1283,7 +1347,7 @@
 
   <Group>
     <GroupName>Drivers/CMSIS</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
@@ -1303,7 +1367,7 @@
 
   <Group>
     <GroupName>Middlewares/FreeRTOS</GroupName>
-    <tvExp>0</tvExp>
+    <tvExp>1</tvExp>
     <tvExpOptDlg>0</tvExpOptDlg>
     <cbSel>0</cbSel>
     <RteFlg>0</RteFlg>
