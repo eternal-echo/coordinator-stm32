@@ -11,7 +11,7 @@
       <uAC6>0</uAC6>
       <TargetOption>
         <TargetCommonOption>
-          <Device>STM32F103RB</Device>
+          <Device>STM32F103RE</Device>
           <Vendor>STMicroelectronics</Vendor>
           <PackID>Keil.STM32F1xx_DFP.2.4.0</PackID>
           <PackURL>http://www.keil.com/pack/</PackURL>
@@ -334,7 +334,7 @@
             <v6Rtti>0</v6Rtti>
             <VariousControls>
               <MiscControls>--gnu</MiscControls>
-              <Define>USE_HAL_DRIVER,STM32F103xE,STM32F103xB</Define>
+              <Define>USE_HAL_DRIVER,STM32F103xE</Define>
               <Undefine />
               <IncludePath>../Inc;../Drivers/STM32F1xx_HAL_Driver/Inc;../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy;../Drivers/CMSIS/Device/ST/STM32F1xx/Include;../Drivers/CMSIS/Include;../Middlewares/Third_Party/FreeRTOS/Source/include;../Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS;../Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM3;../Src/V4-SDK/V4-SDK/core/utils;../Src/V4-SDK/V4-SDK/core/sysdep;../Src/V4-SDK/V4-SDK/core;../Src/V4-SDK/V4-SDK/components/ntp;../Src/V4-SDK/V4-SDK/components/logpost</IncludePath>
             </VariousControls>
